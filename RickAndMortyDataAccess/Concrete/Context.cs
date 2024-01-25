@@ -12,7 +12,7 @@ namespace RickAndMortyDataAccess.Concrete
 	{
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
 		{
-			options.UseSqlServer("Server=DESKTOP-GQ3I6OJ;Database=RickAndMorty;User Id=sa;Password=1;");
+			options.UseSqlServer("Server=;Database=RickAndMorty;");
 
 		}
 		public DbSet<Characters> Characters { get; set; }
